@@ -10,4 +10,4 @@ The data was then uploaded into a Postgres database.
 
 
 ## Usage
-Launch Jupyter Notebook and navigate to main_script.ipynb
+Launch Jupyter Notebook and navigate to ETL_Mini_Project_CSchultheis_ADumecha.ipynb
