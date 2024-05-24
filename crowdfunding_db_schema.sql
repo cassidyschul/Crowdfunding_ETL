@@ -54,3 +54,11 @@ REFERENCES "category" ("category_id");
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
 REFERENCES "subcategory" ("subcategory_id");
 
+-- Verify the tables creation, import each CSV file into its corresponding SQL table and again verify that each table has the correct data
+select * from contacts;
+
+select * from category;
+
+select * from subcategory;
+
+select * from campaign;
